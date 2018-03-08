@@ -1,0 +1,124 @@
+#boardSection, #boardWriteSection {
+   float: right;
+   width: 80%;
+   height: 720px;
+   margin: 0;
+   margin-left: auto;
+   margin-right: auto;
+/*    font-family: 'Sriracha', cursive; */
+   overflow: inherit;
+}
+
+
+#noticeBoardSection {
+	float: right;
+	width: 80%;	
+}
+
+#reviewModifySection {
+   float: right;
+   width: 80%;
+   height: 720px;
+   margin: 0;
+   margin-left: auto;
+   margin-right: auto;
+/*    font-family: 'Sriracha', cursive; */
+   overflow: inherit;	
+}
+
+#passCheck {
+   font-size: 35px;
+   text-align: center;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+   font-size: 12px;
+   line-height: 30px;
+}
+
+table td, th {
+   padding: 5px;
+   border-bottom: #d3d3d3 solid 1px;
+}
+
+readCount {
+   align: center;
+}
+
+th {
+   width: 50px;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 80%;
+}
+
+
+.noticeTd, #noticeListTb, #reviewSearchResultTd, #qnaSearchResultTd {
+	text-align: center;
+}
+
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+list:HOVER {
+   text-decoration: underline;
+   color: green;
+}
+
+p {
+   align: center;
+}
+
+#QnaListTd, #reviewListTd{
+	text-align: center;
+}
+
+#qnaViewForm {
+   width: 75%;
+   height: 1000px;
+}
+
+
+#qnaComments {
+   border-bottom: 1px solid gray;
+}
+
+#comments {
+   color: #B40404;
+   font-weight: bold;
+}
+
+#commentWriter {
+   width: 60px;
+   text-align: center;
+   color: #B40404;
+   font-weight: bold;
+}
+
+#qnaCommentsWriter {
+   border: none;
+}
+
+#qnaComments textarea {
+   width: 490px;
+   height: 60px;
+   position: relative;   
+}
+
+#CommentWriteBtn {
+   display:inline-block;
+     clear: both;
+}
+
+#noticeListTh, #qnaListTh, #reviewListTh, #noticeWriteTh, #qnaViewTh,
+#reviewViewTh, #qnaWriteTh, #modifyReviewTh, #reviewWriteTh {
+	font-family: 'Sriracha', cursive;	
+	font-size: 15px;	
+}

@@ -1,0 +1,28 @@
+navigation {
+	position: fixed;
+	width: 260px;
+	height: 100%;
+	margin: 0px auto;
+	padding: 20px;
+	background: #fff;
+	text-align: center;
+	vertical-align: top;
+	font-family: 'Pangolin', cursive;
+	font-size: 16px;
+	border-right: 1px solid #BDBDBD;
+}
+
+logMenu, #subMenu {
+	font-size: 19px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+keyword {
+	border: 0px;
+	margin-right: 5px;
+	border-color: 0px;
+}

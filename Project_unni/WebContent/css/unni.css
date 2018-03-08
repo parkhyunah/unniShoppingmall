@@ -1,0 +1,330 @@
+/* 전체 */
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* 네비게이션 바 */
+#navi {
+	float: left;
+	width: 20%;
+	text-align: center;
+	font-family: 'Sriracha', cursive;
+}
+
+
+/* 메인 폼 */
+#wrap {
+	margin: 0 auto;
+	width: 1500px;
+}
+
+.imgTable{
+   font-family: 'Sriracha', cursive;
+}
+
+#section {
+	float: right;
+	height: 720px;
+	width: 80%;
+	overflow: inherit;
+}
+
+#memberOrderSection {
+	float: right;
+	height: 720px;
+	width: 80%;
+	overflow: inherit;	
+}
+
+#mainLogo {
+	color: #B40404;
+	font-size: 4em;
+	font-weight: 7px;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+#keyword {
+	border: 0px;
+	margin-right: 5px;
+	border-color: 0px;
+}
+
+.tit {
+	font-size: 1.2em;
+}
+
+.tit1 {
+	color: gray;
+}
+
+/*로그인*/
+.inputLog{
+   font-family: 'Cutive Mono', monospace;
+   margin:10px;
+   text-align:center;
+}
+
+
+/* 마이페이지 */
+#name {
+	text-align: center;
+	font-size: 30px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+}
+
+#myMenuName {
+	top: 150px;
+	left: 700px;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Sriracha', cursive;
+}
+
+#myMenu {
+	padding-top: 160px;
+}
+
+#memberMyInfoTh {
+	
+}
+
+a:HOVER {
+	color: green;
+}
+
+
+/*login*/
+input, label {
+	border: none;
+	border-bottom-color: 1 solid black;
+}
+
+.btn {
+	background: none;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Sriracha', cursive;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	color: green;
+}
+
+h1 {
+	font-family: 'Sriracha', cursive;
+	font-size: 3em;
+	font-weight: lighter;
+	text-align: center;
+}
+
+
+
+/* Admin - Item List Page */
+#AdminItemListWrap {
+	float: right;
+	width: 75%;
+	height: 720px;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: 40px;
+	overflow: inherit;
+	text-align: center;
+}
+
+#AdminItemListWrap.tr {
+	height: 40px;
+}
+
+#AdminItemListWrap.th {
+	height: 40px;
+}
+
+#AdminItemListWrap.td {
+	width: 500px;
+}
+
+#adminItemListBtn {
+	text-align: right;
+	border: none;
+	margin-right: 15px;
+}
+
+#adminItemListTable {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 15px;
+	line-height: 24px;
+	border: none;
+	top: 100px;
+	font-family: 'Nanum Gothic', serif;
+}
+
+
+/* Admin - Item Write Page */
+#adminNewItemTitle {
+	font-size: 55px;
+	text-align: center;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+#adminNewItemSection {
+	float: right;
+	width: 75%;
+	height: 720px;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: 20px;
+	overflow: inherit;
+}
+
+#adminNewItemSection.th {
+	width: 100px;
+	text-align: center;
+}
+
+#adminNewItemSection.select, #adminNewItemSection.input {
+	border: none;
+	margin-left: 20px;
+}
+
+#adminItemFormTable {
+	font-family: 'Sriracha', cursive;	
+	font-size: 15px;	
+}
+
+#adminNewItemTable {
+	width: 60%;
+	border-collapse: collapse;
+	font-size: 15px;
+	line-height: 50px;
+	border: none;
+	top: 100px;
+	font-family: 'Nanum Gothic', serif;
+}
+
+#adminMemberListTh, #modifyNoticeTh {
+	font-family: 'Sriracha', cursive;	
+	font-size: 15px;
+}
+
+#adminMemberListTd{
+	text-align: center;
+	font-family: 'Nanum Gothic', serif;
+}
+
+
+/* Notice */
+
+#modifyNotice {
+	
+}
+
+
+/* Item Detail */
+#itemDetailForm {
+	padding-top: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#mainPic {
+	float: left;
+}
+
+#detailForm {
+	float: right;
+	width: 600px;
+}
+
+#detailTot {
+	width: 800px;
+	margin: 0 auto;
+	top: 400px;
+	font-family: 'Poiret One';
+}
+
+#adminItemDetailForm {
+	top: 200px;
+	width: 80%;
+	float: right;
+	text-align: center;
+}
+
+#adminItemDetailModifyForm {
+	top: 200px;
+	width: 80%;
+	float: right;	
+	margin: 0 auto; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+
+#adminItemDetailModifyTb {
+	width: 55%;
+	border-collapse: collapse;
+	font-size: 12px;
+	line-height:24px;
+	border:none;
+}
+
+
+#adminModifyItemTd {
+	padding: 5px;
+}
+
+#itemMainPic {
+	height: 400px;	
+}
+
+
+/* memberMyInfo */
+#memberMyInfoTb{
+	padding: 10px 10px 10px 10px;
+}
+
+#memberMyInfoTb th {
+	padding: 10px;
+	border: 1px solid brown;
+}
+
+#memberMyInfoTb td {
+	padding-left: 10px;
+	border: 1px solid gray;
+	width: 400px;	
+}
+
+#InfoMemberId {
+	font-weight: bold;
+}
+
+#adminItemDetailTh {
+	font-family: 'Sriracha', cursive;	
+	font-size: 15px;	
+	width: 400px;	
+}
+
+#memberMyInfoTh, #adminOrderListTh {
+	font-family: 'Sriracha', cursive;	
+	font-size: 15px;	
+}
+
+#adminModifyItemTh, #adminWriteItemTh, #memberCartTh {
+	font-family: 'Sriracha', cursive;	
+	font-size: 15px;
+	width: 100px;	
+}
+
+
+#memberMyInfoAddress {
+	font-size: 14px;	
+}

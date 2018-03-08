@@ -1,0 +1,148 @@
+#myOrderList {
+	float: right;
+	width: 80%;
+	height: 720px;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: inherit;
+}
+
+h2, #adminMemberListTitle {
+	font-size: 55px;
+	text-align: center;
+	font-family: 'Sriracha', cursive;
+}
+
+table {
+	width: 70%;
+	border-collapse: collapse;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 5px;
+	border-bottom: #d3d3d3 solid 1px;
+}
+
+table td, th {
+	padding: 5px;
+	border-bottom: #d3d3d3 solid 1px;
+}
+
+#orderInfo {
+	border: #d3d3d3 solid 1px;
+}
+
+th {
+	width: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+p {
+	align: center;
+}
+
+itemPic {
+	width: 80px;
+}
+
+#myCartList {
+	float: right;
+	width: 80%;
+	height: 720px;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: inherit;
+}
+
+#adminMemberList {
+	float: right;
+	width: 80%;
+	height: 720px;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: inherit;
+	text-align: center;
+}
+
+
+#memberList {
+	width: 80%;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+#memberList th {
+	font-family: 'Sriracha', cursive;	
+}
+
+#memberMyOrderTh, #memberOrderTh {
+	font-family: 'Sriracha', cursive;	
+	font-size: 15px;	
+}
+
+#adminOrderList {
+	float: right;
+	width: 80%;
+	height: 720px;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: inherit;
+	text-align: center;
+}
+
+
+#orderId {
+	text-align: center;
+}
+
+#subject {
+	font-family: 'Sriracha', cursive;
+	font-weight: bold;
+	padding-left: 180px;
+}
+
+#same {
+	text-align: center;
+	font-size: 12px;
+}
+
+#orderSubject {
+	font-family: 'Sriracha', cursive;
+	font-weight: bold;
+	padding-left: 180px;
+}
+
+#orderSubjectSame {
+	padding-left: 180px;
+}
+
+#orderAgree {
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#orderFormTh {
+	font-family: 'Sriracha', cursive;
+	font-size: 15px;
+
+}
+
+#orderDetailbtn {
+	text-align: center;
+	margin:0 auto;
+}
+
+#orderBtn {
+	text-align: center;
+}

@@ -1,0 +1,53 @@
+/* 조인 폼 */
+
+#joinForm  {
+	width: 80%;
+	float: right;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	height: 720px;
+	overflow: inherit;
+}
+
+#joinTerms {
+   width: 770px;
+   height: 150px;
+   overflow: auto;
+}
+
+/* table { */
+/*    width: 70%; */
+/*    border-collapse: collapse; */
+/*    font-size: 15px; 글꼴 크기 */
+/*    line-height: 24px; 줄 간격 */
+/* } */
+
+/* table td,th { */
+/*    padding: 5px; 안쪽 여백 */
+/* } */
+
+a {
+   text-decoration: none; /* 링크 밑줄 없애기 */
+   color: black; /* 글 색상 */
+}
+
+
+#joinResult {
+   margin: 10px;
+   margin-left: auto; 
+   margin-right : auto; 
+   border: 1px solid #D8D8D8;
+   width: 500px;
+   background-color: #FAFAFA;
+   margin-right: auto;
+}
+
+p {
+   font-size: 12px; /* 글꼴 크기 */
+   line-height: 24px; /* 줄 간격 */
+}
+
+
+
+

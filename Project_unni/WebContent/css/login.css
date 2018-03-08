@@ -1,0 +1,39 @@
+/* 로그인 폼 */
+.login {
+	width: 79%;
+	float: right;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+	overflow: inherit;
+	height: 720px;
+}
+
+#loginLine {
+	width: 40%;
+	border: 1px solid #D8D8D8;
+	background-color: #FAFAFA;
+}
+
+#login, #findID, #findPW, #resultId, #resultPw {
+	font-size: 55px;
+	align: center;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+#loginTd {
+	padding: 5px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#loginSubmit {
+	width: 175pt; 
+	height: 20pt;
+}
+
+#findId, #findPw {
+	width: 86pt; 
+	height: 20pt;
+}
